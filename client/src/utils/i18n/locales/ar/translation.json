@@ -7,5 +7,21 @@
   },
   "search": {
     "placeholder": "ابحث عن المنتجات..."
+  },
+  "categories": {
+    "title": "الفئات",
+    "desks": "مكاتب | معدن وخشب",
+    "importedDesks": "مكاتب مستوردة",
+    "importedChairs": "كراسي مستوردة",
+    "deskChairs": "كراسي مكتبية",
+    "meetingTables": "طاولات اجتماعات",
+    "workstation": "محطات عمل",
+    "sofas": "أرائك",
+    "cabinets": "خزائن",
+    "counters": "كاونترات",
+    "drawers": "أدراج",
+    "Shanon": "شانـون | معدن وخشب",
+    "waitingTables": "طاولات انتظار",
+    "others": "أخرى"
   }
 }

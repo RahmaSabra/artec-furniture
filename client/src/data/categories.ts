@@ -1,0 +1,15 @@
+export const categories = [
+  { id: "desks", slug: "desks" },
+  { id: "importedDesks", slug: "imported-desks" },
+  { id: "importedChairs", slug: "imported-chairs" },
+  { id: "deskChairs", slug: "desk-chairs" },
+  { id: "meetingTables", slug: "meeting-tables" },
+  { id: "workstation", slug: "workstation" },
+  { id: "sofas", slug: "sofas" },
+  { id: "cabinets", slug: "cabinets" },
+  { id: "counters", slug: "counters" },
+  { id: "drawers", slug: "drawers" },
+  { id: "Shanon", slug: "shanon" },
+  { id: "waitingTables", slug: "waiting-tables" },
+  { id: "others", slug: "others" },
+];

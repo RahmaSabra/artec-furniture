@@ -7,5 +7,21 @@
   },
   "search": {
     "placeholder": "Search products..."
+  },
+  "categories": {
+    "title": "Categories",
+    "desks": "Desks | metal & wood",
+    "importedDesks": "Imported Desks",
+    "importedChairs": "Imported Chairs",
+    "deskChairs": "Desk Chairs",
+    "meetingTables": "Meeting Tables",
+    "workstation": "Workstation",
+    "sofas": "Sofas",
+    "cabinets": "Cabinets",
+    "counters": "Counters",
+    "drawers": "Drawers",
+    "Shanon": "Shanon | metal & wood",
+    "waitingTables": "Waiting Tables",
+    "others": "Others"
   }
 }
