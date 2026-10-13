@@ -1,5 +1,4 @@
-import UtilityBar from "./components/UtilityBar";
-import Header from "./components/Header";
+import Home from "./pages/Home";
 import { useTranslation } from "react-i18next";
 
 export default function App() {
@@ -9,8 +8,7 @@ export default function App() {
 
   return (
     <>
-      <UtilityBar />
-      <Header />
+      <Home />
     </>
   );
 }

@@ -7,7 +7,7 @@ export default function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="flex flex-row justify-center items-center gap-4 my-3 mx-2 md:gap-7">
+    <header className="flex flex-row justify-center items-center gap-4 bg-white sticky top-0 z-50 py-3 px-2 md:gap-7">
       <img src={logo} alt="artec brand logo" width={60} />
 
       <nav>
