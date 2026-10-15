@@ -29,7 +29,7 @@ export default function UtilityBar() {
       </button>
       <div
         className={clsx(
-          "fixed inset-y-0 inset-s-0 w-full bg-[#eee6e6] transition-opacity duration-300 sm:w-1/3",
+          "fixed inset-y-0 inset-s-0 z-40 w-full bg-[#eee6e6] transition-opacity duration-300 sm:w-1/3",
           isMenuOpen ? "opacity-100" : "opacity-0 pointer-events-none",
         )}
       >

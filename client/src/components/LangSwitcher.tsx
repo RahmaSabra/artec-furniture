@@ -4,8 +4,11 @@ import globe from "../assets/icons/globe.svg";
 export default function LangSwitcher() {
   const { i18n } = useTranslation();
 
-  const handleLanguageChange = () => {
-    i18n.changeLanguage(i18n.language === "ar" ? "en" : "ar");
+  const handleLanguageChange = async () => {
+    const newLanguage = i18n.language === "ar" ? "en" : "ar";
+
+    await i18n.changeLanguage(newLanguage);
+    document.documentElement.lang = newLanguage;
   };
 
   return (
