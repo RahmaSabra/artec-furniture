@@ -19,7 +19,7 @@ export default function UtilityBar() {
 
   return (
     <div className="flex flex-row items-center justify-between bg-[#88ba47] w-full py-2 px-4">
-      <button onClick={setIsMenuOpenHandler} className="z-50">
+      <button onClick={setIsMenuOpenHandler} className="z-50 cursor-pointer">
         <img
           src={menu}
           alt="hamburger menu"
@@ -38,7 +38,10 @@ export default function UtilityBar() {
           <ul>
             {categories.map(({ id, slug }) => (
               <li key={id}>
-                <a href={`/products/${slug}`} className="text-sm font-light">
+                <a
+                  href={`/products/${slug}`}
+                  className="text-sm font-light transition-colors duration-300 ease-in-out hover:text-[#96795d]"
+                >
                   {t(`categories.${id}`)}
                 </a>
               </li>
