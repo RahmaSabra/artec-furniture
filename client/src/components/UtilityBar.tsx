@@ -2,10 +2,8 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import clsx from "clsx";
 import LangSwitcher from "./LangSwitcher";
+import SocialLinks from "./SocialLinks";
 import { categories } from "../data/categories";
-import fb from "../assets/icons/facebook.svg";
-import wa from "../assets/icons/whatsapp.svg";
-import mail from "../assets/icons/mail.svg";
 import menu from "../assets/icons/hamburger-menu.svg";
 
 export default function UtilityBar() {
@@ -18,12 +16,12 @@ export default function UtilityBar() {
   };
 
   return (
-    <div className="flex flex-row items-center justify-between bg-[#88ba47] w-full py-2 px-4">
+    <div className="flex flex-row items-center justify-between bg-[#88ba47] w-full py-1 px-4">
       <button onClick={setIsMenuOpenHandler} className="z-50 cursor-pointer">
         <img
           src={menu}
           alt="hamburger menu"
-          width={15}
+          width={16}
           className={isMenuOpen ? "" : "invert"}
         />
       </button>
@@ -50,20 +48,7 @@ export default function UtilityBar() {
         </nav>
       </div>
 
-      <div className="flex flex-row gap-2 invert">
-        <a href="mailto:artec.furniture@gmail.com">
-          <img src={mail} alt="envelope vector" width={15} />
-        </a>
-
-        <a href="https://wa.me/201211770708">
-          <img src={wa} alt="whatsapp logo" width={15} />
-        </a>
-
-        <a href="https://www.facebook.com/profile.php?id=100094231891035&ref=br_rs#">
-          <img src={fb} alt="facebook logo" width={15} />
-        </a>
-      </div>
-
+      <SocialLinks />
       <LangSwitcher />
     </div>
   );

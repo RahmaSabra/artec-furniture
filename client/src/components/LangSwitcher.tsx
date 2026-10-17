@@ -13,7 +13,7 @@ export default function LangSwitcher() {
 
   return (
     <button
-      className="flex flex-row justify-center items-center gap-1 cursor-pointer"
+      className="flex flex-row justify-center items-center gap-1 border border-white rounded-full py-1 px-1.5 cursor-pointer"
       onClick={handleLanguageChange}
     >
       <img
